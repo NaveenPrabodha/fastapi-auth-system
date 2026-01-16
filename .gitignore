@@ -1,0 +1,16 @@
+.env
+app/__pycache__/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# Editor
+.vscode/
