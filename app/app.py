@@ -4,6 +4,7 @@ from app.db import Post, get_async_session, create_db_and_tables
 from sqlalchemy.ext.asyncio import AsyncSession
 from contextlib import asynccontextmanager
 from sqlalchemy.future import select
+from app.images import imagekit
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
