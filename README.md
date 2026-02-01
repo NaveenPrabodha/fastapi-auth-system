@@ -37,6 +37,15 @@ This project leverages FastAPI for a robust asynchronous backend and Streamlit f
 
 ### 1️⃣ Clone the Repository
 
-```bash
+``bash
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
+
+## 2️⃣ Setup Virtual Environment
+
+Create and activate a virtual environment, then install dependencies:
+
+``bash
+uv venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
